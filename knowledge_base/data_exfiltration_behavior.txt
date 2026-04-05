@@ -1,0 +1,23 @@
+Data Exfiltration Behavior
+
+Overview
+Data exfiltration refers to unauthorized transfer of sensitive information from a system to an external destination.
+
+Indicators
+• Large outbound network transfers
+• Communication with external storage services
+• Encrypted traffic to unknown hosts
+
+Associated MITRE Techniques
+T1041 – Exfiltration Over Command Channel
+T1020 – Automated Exfiltration
+
+Attack Explanation
+Attackers often attempt to steal sensitive data after gaining access to a system. These actions typically produce abnormal network activity.
+
+References
+MITRE ATT&CK Exfiltration Techniques
+https://attack.mitre.org/tactics/TA0010/
+
+NIST Cybersecurity Framework
+https://www.nist.gov/cyberframework

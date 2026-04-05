@@ -1,0 +1,32 @@
+Authentication Anomalies and Brute Force Attacks
+
+Overview
+Authentication systems track login attempts to prevent unauthorized access. Abnormal login behavior such as multiple failed attempts or unusually frequent login requests may indicate malicious authentication attacks.
+
+Excessive Login Attempts
+Brute force attacks involve repeated password attempts to gain access to an account. Automated tools attempt numerous password combinations until authentication succeeds.
+
+Indicators
+• High login attempts per minute
+• Repeated authentication failures
+• Login attempts from unfamiliar sources
+• Account lockout events
+
+Associated Attack Techniques
+MITRE ATT&CK T1110 – Brute Force
+
+Attack Explanation
+Brute force attacks attempt to compromise accounts by systematically guessing passwords. Attackers use automated scripts to generate thousands of login attempts. Monitoring authentication behavior helps detect such attacks early.
+
+Example Scenario
+A monitoring system detects login attempts exceeding 20 attempts per minute from the same account. This anomaly suggests a possible brute force attack targeting user credentials.
+
+References
+MITRE ATT&CK Brute Force Technique
+https://attack.mitre.org/techniques/T1110/
+
+OWASP Authentication Security
+https://owasp.org/www-project-top-ten/
+
+NIST Digital Identity Guidelines
+https://pages.nist.gov/800-63-3/

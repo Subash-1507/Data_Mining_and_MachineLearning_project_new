@@ -1,0 +1,20 @@
+Incident Response Guidelines
+
+Overview
+When anomalies are detected, security teams must investigate and respond quickly.
+
+Incident Response Steps
+1. Detection and analysis
+2. Containment
+3. Eradication
+4. Recovery
+5. Post-incident analysis
+
+Recommended Actions
+• Investigate suspicious processes
+• Monitor network connections
+• Identify affected systems
+
+References
+NIST SP 800-61 Computer Security Incident Handling Guide
+https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf

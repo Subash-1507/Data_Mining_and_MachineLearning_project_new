@@ -1,0 +1,33 @@
+Network Traffic Anomalies and Security Threats
+
+Overview
+Network traffic monitoring is an essential component of cybersecurity detection systems. Unusual traffic patterns may indicate command-and-control communications, data exfiltration, or botnet activity.
+
+Abnormal Outbound Traffic
+Large outbound traffic volumes may indicate data theft or communication with attacker-controlled infrastructure.
+
+Indicators
+• Sudden spikes in outbound traffic
+• Persistent connections to unknown external hosts
+• Communication with suspicious IP addresses
+• Network activity outside normal operational hours
+
+Associated Attack Techniques
+MITRE ATT&CK T1041 – Exfiltration Over Command Channel
+MITRE ATT&CK T1071 – Application Layer Protocol
+
+Attack Explanation
+Attackers often use encrypted communication channels to transfer stolen data or communicate with compromised systems. These communications generate unusual network traffic patterns that can be detected through anomaly analysis.
+
+Example Scenario
+An anomaly detection model flags unusually high outbound network traffic combined with abnormal system activity. This may indicate data exfiltration or command-and-control communications.
+
+References
+MITRE ATT&CK Exfiltration Over Command Channel
+https://attack.mitre.org/techniques/T1041/
+
+MITRE ATT&CK Application Layer Protocol
+https://attack.mitre.org/techniques/T1071/
+
+NIST SP 800-94 Intrusion Detection Systems Guide
+https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-94.pdf

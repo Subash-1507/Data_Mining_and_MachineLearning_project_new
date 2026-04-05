@@ -1,0 +1,19 @@
+Intrusion Detection and Anomaly Detection
+
+Overview
+Intrusion detection systems monitor system and network activity to identify malicious behavior.
+
+Detection Methods
+
+Signature-Based Detection
+Detects known attack patterns.
+
+Anomaly-Based Detection
+Identifies deviations from normal system behavior.
+
+Machine Learning in Anomaly Detection
+Machine learning algorithms such as Isolation Forest analyze system behavior metrics and detect anomalies representing possible attacks.
+
+References
+NIST SP 800-94 Guide to Intrusion Detection Systems
+https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-94.pdf

@@ -1,0 +1,33 @@
+System Resource Anomalies and Security Implications
+
+Overview
+Abnormal system resource usage is a key indicator used in behavior-based security monitoring. Metrics such as CPU utilization, process creation, memory consumption, and disk activity are monitored to detect deviations from normal operational patterns. Sudden spikes or sustained high usage may indicate malicious activity running on the host system.
+
+High CPU Utilization
+High CPU utilization occurs when system processes consume excessive processing power. While high CPU usage may be legitimate during heavy workloads, persistent high utilization without expected workloads may indicate malicious processes such as cryptocurrency mining malware or unauthorized scripts.
+
+Indicators
+• CPU usage consistently above normal baseline
+• Continuous CPU load without legitimate application activity
+• CPU spikes combined with unusual outbound network traffic
+• High CPU usage linked to unknown processes
+
+Associated Attack Techniques
+MITRE ATT&CK T1496 – Resource Hijacking  
+MITRE ATT&CK T1059 – Command and Scripting Interpreter
+
+Attack Explanation
+Attackers deploy malware to exploit victim computing resources. Cryptomining malware hijacks CPU resources to mine digital currencies for the attacker. These attacks cause persistent CPU usage and may also generate outbound network connections to mining pools.
+
+Example Scenario
+An anomaly detection model detects CPU usage above 90% combined with increased network traffic and elevated process counts. This pattern is consistent with resource hijacking behavior associated with cryptomining malware.
+
+References
+MITRE ATT&CK Resource Hijacking (T1496)
+https://attack.mitre.org/techniques/T1496/
+
+CISA Malware Analysis Guide
+https://www.cisa.gov/sites/default/files/publications/malware-analysis-reporting-guide.pdf
+
+NIST SP 800-94 Guide to Intrusion Detection Systems
+https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-94.pdf
