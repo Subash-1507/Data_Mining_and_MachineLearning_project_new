@@ -175,10 +175,11 @@ streamlit run dashboard.py
 
 ## License
 
-This project currently does not include a license file. Add one if you want to define usage and distribution terms.
+N/A
 
 ---
 
 ## Author
 
 **Subash-1507**
+**SSV-07 Vaagai**
