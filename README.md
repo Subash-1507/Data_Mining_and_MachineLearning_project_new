@@ -111,7 +111,7 @@ This project addresses the problem by using machine learning to detect abnormal 
 
 ---
 
-## ATS-Friendly Keywords
+## Keywords
 
 Cybersecurity, Threat Detection, Anomaly Detection, Machine Learning, Isolation Forest, Unsupervised Learning, Behavioral Analytics, Security Monitoring, Threat Intelligence, MITRE ATT&CK, OWASP, Retrieval-Augmented Generation, RAG, Streamlit Dashboard, Data Mining, Python, Scikit-learn, Pandas, Plotly, Log Analysis, Network Security, System Monitoring, AI for Cybersecurity, Security Analytics.
 
